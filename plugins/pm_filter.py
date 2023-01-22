@@ -877,7 +877,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/MatRixBotzTG')
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/filesharebotusers')
         ], [
             InlineKeyboardButton('ℹ️ Help', callback_data='help2'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -982,7 +982,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('SOURCE CODE', url='https://github.com/matrixbotz0/PETER-PARKER-BOT')
+            InlineKeyboardButton('SOURCE CODE', url='https://t.me/filesharebotusers/𝙰𝙼𝙻-𝚄𝙿𝙳𝙰𝚃𝙴𝚂')
             ],[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
         ]]
